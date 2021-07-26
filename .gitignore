@@ -1,4 +1,5 @@
 
 __pycache__/
-recording/*
+
 .ipynb_checkpoints/
+recordings/
