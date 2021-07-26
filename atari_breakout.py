@@ -14,7 +14,7 @@ class AtariBreakoutEnvironment(BaseEnvironment):
         """
         self.env = gym.make("Breakout-v0")
         directory = "recordings"
-        self.env = gym.wrappers.Monitor(self.env, directory, video_callable=lambda episode_id: episode_id%5==0, force=True)
+        # self.env = gym.wrappers.Monitor(self.env, directory, video_callable=lambda episode_id: episode_id%5==0, force=True)
         self.env.seed(0)
 
     def env_start(self):
