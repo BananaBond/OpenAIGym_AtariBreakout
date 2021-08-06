@@ -1,6 +1,7 @@
 
 __pycache__/
-
+weights/
+ReplayBuffer/
 .ipynb_checkpoints/
 recordings/
 test.txt
