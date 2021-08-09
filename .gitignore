@@ -4,4 +4,10 @@ weights/
 ReplayBuffer/
 .ipynb_checkpoints/
 recordings/
+results/
+
 test.txt
+replay_buffer_1_backup.txt
+ReplayBuffer/
+Test.ipynb
+results.zip

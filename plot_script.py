@@ -25,7 +25,7 @@ def smooth(data, k):
     return smoothed_data
 
 # Function to plot result
-def plot_result(data_name_array):
+def plot_result(data_name_array, filename):
     plt_agent_sweeps = []
 
     fig, ax = plt.subplots(figsize=(8,6))
@@ -34,7 +34,7 @@ def plot_result(data_name_array):
     for data_name in data_name_array:
 
         # load data
-        filename = 'sum_reward_{}'.format(data_name).replace('.','')
+        filename = 'sum_reward_{}'.format(filename).replace('.','')
         sum_reward_data = np.load('{}/{}.npy'.format(path_dict[data_name], filename))
 
         # smooth data
